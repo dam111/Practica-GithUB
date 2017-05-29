@@ -20,8 +20,8 @@ public class MantProducto extends javax.swing.JFrame {
     public MantProducto() {
         initComponents();
    
-        String titulos[]={"Código","Artefacto","Cantidad","Modelo","Marca"};
-        dtm.setColumnIdentifiers(titulos);
+        String[] tit={"Código","Artefacto","Cantidad","Modelo","Marca"};
+        dtm.setColumnIdentifiers(tit);
         TablaProductos.setModel(dtm);
         cboCategoria.setModel(dcbm1);
         cboMarca.setModel(dcbm2);
